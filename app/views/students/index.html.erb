@@ -1,4 +1,4 @@
-<%= from_tag students_path, method: :get do%>
+<%= form_tag students_path, method: :get do%>
 <%= text_field :query, params[:query]%>
 <%=submit_tag "Search"%>
 <%end%>
